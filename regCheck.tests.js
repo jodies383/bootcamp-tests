@@ -1,9 +1,9 @@
-describe('regCheck', function(){
+describe('The Registration Check Function', function(){
 
-    it('should check if a registration number is for GP, L, EC, MP registration plates', function(){
+    it('should return true since the registration number includes either GP, L, EC, MP', function(){
         assert.equal(true, regCheck('DV 23 NB GP', 'GP'));
     });
-    it('should check if a registration number is for GP, L, EC, MP registration plates', function(){
-        assert.equal(true, regCheck('DV 23 LP MP', 'MP'));
+    it('should return false since the registration number does not include either GP, L, EC, MP', function(){
+        assert.equal(false, regCheck('DV 23 LP CY', 'MP'));
     });
 });
