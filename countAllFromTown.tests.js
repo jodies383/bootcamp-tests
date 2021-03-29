@@ -1,4 +1,4 @@
-describe('The Count All From Town', function(){
+describe('The Count All From Town Function', function(){
 
     it('should return 3 since there are 3 registration numbers for the town', function(){
         assert.equal(3, countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL'));

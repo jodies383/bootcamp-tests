@@ -1,4 +1,4 @@
-describe('The Count Registration Number', function(){
+describe('The Count Registration Number Function', function(){
 
     it('should return four registration numbers in the string', function(){
         assert.equal(4, countRegNumber('CJ 123-456, CJ 567-890, CJ 756-874, CJ 848-595'));
