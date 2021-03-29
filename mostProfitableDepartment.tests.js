@@ -1,4 +1,4 @@
-describe('Most Profitable Department', function(){
+describe('Most Profitable Department Function', function(){
 
     it('should print Outdoor which is the name of the department with the most profit', function(){
         assert.deepEqual('outdoor', mostProfitableDepartment([
