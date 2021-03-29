@@ -19,7 +19,7 @@ describe('Most Profitable Department Function', function(){
             {department: 'carpentry', sales: 16109, day: 'Friday'}
         ]));
     });
-    it('should print Electronics which the name of the department with the most profit', function(){
+    it('should print Electronics which is the name of the department with the most profit', function(){
         assert.equal('electronics', mostProfitableDepartment([
             {department: 'hardware', sales: 4500, day: 'Monday'},
             {department: 'electronics', sales: 1500, day: 'Monday'},
