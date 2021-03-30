@@ -1,12 +1,11 @@
 function fromWhere(reg){
-  switch(reg) {
-    case "CY":
-      return "Bellville";
-    case "CJ":
-      return "Paarl";
-    case "CA":
-      return "Cape Town";
-    default:
-      return "Some other place!";
-            }
+  if (reg.includes("CY")){
+    return "Bellville";
+  } else if (reg.includes("CJ")) {
+    return "Paarl";
+  } else if (reg.includes("CA")) {
+    return "Cape Town";
+  } else {
+    return "Some other place!";
+  }
 }
